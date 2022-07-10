@@ -94,6 +94,7 @@ img{
 }
 .nav-list a:hover{
     background-color: var(--second-color);
+    transition: 520ms;
 }
 /*Nav Bar fim*/
 
