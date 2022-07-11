@@ -157,12 +157,14 @@ img{
         top: -7px;
     }
 }
-@media (max-width:440px){
+@media (max-width:460px){
     .nav-list{
+        transition: 0s;
         top: 61px;
     }
     #nav.active .nav-list{
         height: calc(28.48vh - 61px);
+
     }
 }
 .nav-list a{
