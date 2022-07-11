@@ -157,6 +157,14 @@ img{
         top: -7px;
     }
 }
+@media (max-width:440px){
+    .nav-list{
+        top: 61px;
+    }
+    #nav.active .nav-list{
+        height: calc(28.48vh - 61px);
+    }
+}
 .nav-list a{
     display: block;
     font-size: 2.2rem;
